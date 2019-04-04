@@ -35,6 +35,6 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:27.0.0'
     implementation 'com.github.hotchemi:permissionsdispatcher:3.1.0'
     annotationProcessor 'com.github.hotchemi:permissionsdispatcher-processor:3.1.0'
-    implementation project(':okhelper')
-//    implementation 'com.github.enChenging:okhelper:'
+//    implementation project(':okhelper')
+    implementation 'com.github.enChenging:okhelper:1.0.2'
 }

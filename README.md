@@ -19,7 +19,7 @@ allprojects {
  在build.gradle文件中的dependencies下添加引用：
 	
 ```java
-	implementation 'com.github.enChenging:okhelper:1.0.2'
+implementation 'com.github.enChenging:okhelper:1.0.2'
 ```
 
 ## 配置OkhttpClient

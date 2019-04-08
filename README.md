@@ -191,11 +191,11 @@ File file = new File(Environment.getExternalStorageDirectory(), "test.txt");
 ## 混淆
 
 ```java
-#okhttputils
+#okhelper
 -dontwarn com.release.okhelper.**
 -keep class com.release.okhelper.**{*;}
 
-#okhttp
+#okhttp3
 -dontwarn okhttp3.**
 -keep class okhttp3.**{*;}
 

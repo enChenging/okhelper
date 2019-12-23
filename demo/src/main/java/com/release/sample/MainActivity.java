@@ -160,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void downloadFile(View view) {
-        String url = "http://appbs.yqxiu.net/1.1.4/9600391.apk";
+        String url = "https://img-blog.csdnimg.cn/20190803161343454.gif";
         OkHelper.get(url)
                 .execute(new FileCallBack(Environment.getExternalStorageDirectory() + "/downloadFile/", "test.apk") {
 
